@@ -119,7 +119,7 @@ Distributed / Multi-region Architecture
 
 ### Practice
 
-Take a Rails monolith and identify which modules could become independent services **without immediately extracting them**.
+Take a monolith and identify which modules could become independent services **without immediately extracting them**.
 
 ---
 
@@ -143,18 +143,18 @@ Take a Rails monolith and identify which modules could become independent servic
 
 ### Design exercise
 
-Design APIs for:
+Design APIs for a realistic product and document:
 
 ```text
-Users
-Courses
-Lessons
-Questions
-Answers
-Exams
-Payments
-Notifications
-AI Tutor
+Resources
+Endpoints
+Authentication
+Authorization
+Errors
+Pagination
+Rate limits
+Idempotency
+Versioning
 ```
 
 ---
@@ -554,7 +554,7 @@ Cost optimization options
 ```text
 User
  ↓
-Rails Application
+Application
  ↓
 AI Gateway
  ↓
@@ -588,7 +588,7 @@ Response
 - [ ] Runbooks
 - [ ] Disaster recovery plans
 
-For every major project, document:
+For every major system, document:
 
 ```text
 1. Requirements
@@ -624,7 +624,7 @@ Complete these progressively:
 - [ ] Payment System
 - [ ] E-commerce Platform
 - [ ] Learning Management System
-- [ ] AI Tutor Platform
+- [ ] AI Assistant Platform
 
 For each project produce:
 
@@ -640,100 +640,6 @@ For each project produce:
 - [ ] Observability design
 - [ ] Cost analysis
 - [ ] Architecture trade-offs
-
----
-
-# 20 — Adhyayanshala Architecture Capstone
-
-Use **Adhyayanshala** as the final architecture laboratory.
-
-### Stage 1 — MVP
-
-```text
-Browser
-   ↓
-Rails
-   ↓
-PostgreSQL
-```
-
-### Stage 2 — Production
-
-```text
-Browser
-   ↓
-CloudFront
-   ↓
-ALB
-   ↓
-Rails App × N
-   ↓
-PostgreSQL + Redis
-```
-
-### Stage 3 — Async workloads
-
-```text
-Rails
- ↓
-Queue
- ↓
-Workers
- ↓
-Notifications / Emails / Analytics
-```
-
-### Stage 4 — Content platform
-
-```text
-Rails
- ├── Courses
- ├── Lessons
- ├── Questions
- ├── Exams
- ├── Progress
- └── Search
-
-S3 → media/content
-Redis → cache
-PostgreSQL → transactional data
-Search → discovery
-```
-
-### Stage 5 — AI Tutor
-
-```text
-Student
- ↓
-Rails
- ↓
-AI Gateway
- ├── LLM
- ├── RAG
- ├── pgvector
- ├── Search
- └── Tools
-```
-
-### Stage 6 — Large-scale architecture
-
-```text
-Global Users
-      ↓
-Global DNS / CDN / WAF
-      ↓
-Regional Load Balancers
-      ↓
-Application Fleet
-      ↓
-Cache + Queues + Services
-      ↓
-Partitioned / Replicated Data
-      ↓
-Analytics + AI Platform
-```
-
-The goal is **not** to claim a billion users on day one. The goal is to learn how the architecture evolves as real traffic, availability, latency, data, and business requirements grow.
 
 ---
 
