@@ -1,231 +1,242 @@
 # Engineering Journey 🚀
 
-A practical, project-driven roadmap to grow from an experienced full-stack developer into a **Senior/Staff-level Full-Stack, Cloud, DevOps, System Design, and AI Engineer**.
+> **From writing code → building production systems → designing system architecture → becoming a Senior/Staff-level engineer.**
 
-The goal is not to collect technologies. The goal is to understand **why systems are designed the way they are**, build them, operate them, measure them, break them, and improve them.
+This repository is the single learning system for **Engineering + System Design + System Architecture + AWS + DevOps + Distributed Systems + AI**.
 
-> **Core philosophy:** Learn → Build → Measure → Break → Scale → Explain → Repeat.
-
----
-
-## 🎯 Target Profile
-
-By completing this journey, the target capability is:
-
-- Strong full-stack engineering
-- Advanced Ruby on Rails backend engineering
-- Strong PostgreSQL/database engineering
-- Linux and networking fundamentals
-- Production system design
-- AWS cloud architecture
-- DevOps and CI/CD
-- Infrastructure as Code
-- Distributed systems
-- Containers and Kubernetes
-- Observability and reliability engineering
-- Security fundamentals
-- AI application engineering
-- RAG, vector search, tool calling, and agents
-- AI-powered system design
-- Ability to design systems from small scale to global scale
-
----
-
-# 🗺️ Overall Learning Path
+## 🧠 Core Learning Loop
 
 ```text
-01. Engineering Fundamentals
-        ↓
-02. Advanced Backend Engineering
-        ↓
-03. Frontend Engineering
-        ↓
-04. Database Engineering
-        ↓
-05. Linux
-        ↓
-06. Networking
-        ↓
-07. Caching & Messaging
-        ↓
-08. System Design Fundamentals
-        ↓
-09. Docker & Containers
-        ↓
-10. AWS Fundamentals
-        ↓
-11. AWS Architecture
-        ↓
-12. CI/CD & DevOps
-        ↓
-13. Terraform & Infrastructure as Code
-        ↓
-14. Observability & Reliability
-        ↓
-15. Distributed Systems
-        ↓
-16. Kubernetes & EKS
-        ↓
-17. Security
-        ↓
-18. AI Engineering
-        ↓
-19. AI System Design
-        ↓
-20. Production-Scale Capstone
-        ↓
-21. Senior/Staff Engineering Skills
+Learn → Build → Measure → Break → Fix → Scale → Document → Explain
 ```
+
+For every important topic:
+
+- [ ] Learn the concept
+- [ ] Practice it
+- [ ] Build something with it
+- [ ] Deploy it when practical
+- [ ] Measure/profile it
+- [ ] Introduce a failure or bottleneck
+- [ ] Fix and improve it
+- [ ] Document the lesson
+- [ ] Explain it without notes
+
+---
+
+# 🗺️ Unified Engineering Journey
+
+```text
+01 Engineering Fundamentals
+        ↓
+02 Ruby & Backend Engineering
+        ↓
+03 Rails Production Engineering
+        ↓
+04 Database Engineering
+        ↓
+05 Linux & Operating Systems
+        ↓
+06 Networking
+        ↓
+07 Caching & Messaging
+        ↓
+08 System Design
+        ↓
+09 System Architecture
+        ↓
+10 Distributed Systems
+        ↓
+11 AWS Fundamentals
+        ↓
+12 AWS System Architecture
+        ↓
+13 DevOps & CI/CD
+        ↓
+14 Terraform & Infrastructure as Code
+        ↓
+15 Observability & Reliability
+        ↓
+16 Kubernetes & Platform Engineering
+        ↓
+17 Security Engineering
+        ↓
+18 AI Engineering
+        ↓
+19 AI System Design
+        ↓
+20 Architecture Projects
+        ↓
+21 Senior/Staff Engineering
+```
+
+**System Architecture is integrated into the Engineering Journey, not treated as an isolated subject.**
+
+Detailed architecture curriculum: **[SYSTEM-ARCHITECTURE.md](./SYSTEM-ARCHITECTURE.md)**
+
+---
+
+# 📊 Progress Dashboard
+
+| Phase | Area | Status |
+|---|---|---|
+| 01 | Engineering Fundamentals | ⬜ Not Started |
+| 02 | Ruby & Backend Engineering | ⬜ Not Started |
+| 03 | Rails Production Engineering | ⬜ Not Started |
+| 04 | Database Engineering | ⬜ Not Started |
+| 05 | Linux & Operating Systems | ⬜ Not Started |
+| 06 | Networking | ⬜ Not Started |
+| 07 | Caching & Messaging | ⬜ Not Started |
+| 08 | System Design | ⬜ Not Started |
+| 09 | System Architecture | ⬜ Not Started |
+| 10 | Distributed Systems | ⬜ Not Started |
+| 11 | AWS Fundamentals | ⬜ Not Started |
+| 12 | AWS Architecture | ⬜ Not Started |
+| 13 | DevOps & CI/CD | ⬜ Not Started |
+| 14 | Terraform / IaC | ⬜ Not Started |
+| 15 | Observability & Reliability | ⬜ Not Started |
+| 16 | Kubernetes / Platform | ⬜ Not Started |
+| 17 | Security | ⬜ Not Started |
+| 18 | AI Engineering | ⬜ Not Started |
+| 19 | AI System Design | ⬜ Not Started |
+| 20 | Architecture Projects | ⬜ Not Started |
+| 21 | Senior/Staff Engineering | ⬜ Not Started |
+
+### Status convention
+
+- ⬜ Not Started
+- 🟡 In Progress
+- 🟢 Completed
+- 🔵 Needs Review
 
 ---
 
 # Phase 01 — Engineering Fundamentals
 
-**Goal:** Build strong computer-science and software-engineering foundations.
-
-### Topics
-
-- [ ] Data structures
-- [ ] Algorithms
-- [ ] Big-O analysis
+- [ ] Big-O time complexity
+- [ ] Space complexity
+- [ ] Arrays
+- [ ] Hash tables
+- [ ] Sets
+- [ ] Stacks
+- [ ] Queues
+- [ ] Linked lists
+- [ ] Trees
+- [ ] Heaps
+- [ ] Graphs
+- [ ] Binary search
+- [ ] Two pointers
+- [ ] Sliding window
+- [ ] Recursion
+- [ ] BFS / DFS
+- [ ] Sorting algorithms
+- [ ] Dynamic programming concepts
 - [ ] OOP
-- [ ] Functional programming concepts
-- [ ] Memory and execution model
-- [ ] Processes and threads
-- [ ] Concurrency
-- [ ] Error handling
-- [ ] Testing strategies
+- [ ] Composition vs inheritance
+- [ ] SOLID
 - [ ] Clean code
 - [ ] Design principles
-- [ ] SOLID
-- [ ] Git fundamentals
-- [ ] Git branching, rebasing, cherry-picking
+- [ ] Error handling
+- [ ] Unit testing
+- [ ] Integration testing
+- [ ] Refactoring
+- [ ] Code review
+- [ ] Process vs thread
+- [ ] Concurrency vs parallelism
+- [ ] Race conditions
+- [ ] Deadlocks
+- [ ] Mutexes / locks
+- [ ] Memory basics
+- [ ] Git branching
+- [ ] Git merge / rebase
+- [ ] Git cherry-pick
+- [ ] Git reset / revert
+- [ ] Git stash
+- [ ] Git bisect
+- [ ] Git reflog
 
-### Practice
-
-- [ ] Implement common data structures
-- [ ] Solve algorithm problems regularly
-- [ ] Write unit and integration tests
-- [ ] Refactor an existing application
-
-### Milestone
-
-> Can explain the complexity and trade-offs of a solution before implementing it.
+**Milestone:** Explain complexity and trade-offs before implementing a solution.
 
 ---
 
-# Phase 02 — Advanced Backend Engineering
+# Phase 02 — Ruby & Backend Engineering
 
-**Primary stack:** Ruby + Ruby on Rails
-
-### Ruby
-
-- [ ] Object model
-- [ ] Blocks, Proc, Lambda
-- [ ] Modules and mixins
+- [ ] Ruby object model
+- [ ] Method lookup
+- [ ] Blocks
+- [ ] Proc
+- [ ] Lambda
+- [ ] Modules / mixins
 - [ ] Metaprogramming
-- [ ] Memory management
 - [ ] Exceptions
+- [ ] Memory management
+- [ ] Garbage collection
 - [ ] Concurrency
-- [ ] Performance profiling
+- [ ] Profiling
+- [ ] Benchmarking
+- [ ] API design
+- [ ] Authentication
+- [ ] Authorization
+- [ ] Background processing
+- [ ] Idempotency
+- [ ] Rate limiting
+- [ ] Error handling
+- [ ] Performance optimization
 
-### Rails
+**Milestone:** Understand what Ruby is doing internally, not only its syntax.
 
-- [ ] MVC architecture
+---
+
+# Phase 03 — Rails Production Engineering
+
+- [ ] Rails request lifecycle
+- [ ] Routing
+- [ ] Controllers
+- [ ] Models
 - [ ] ActiveRecord internals
 - [ ] Associations
 - [ ] Validations
 - [ ] Transactions
-- [ ] Callbacks and concerns
+- [ ] Locks
+- [ ] Connection pooling
+- [ ] N+1 queries
 - [ ] Service objects
+- [ ] Domain boundaries
 - [ ] Background jobs
 - [ ] Caching
-- [ ] ActionCable/WebSockets
+- [ ] ActionCable / WebSockets
 - [ ] ActiveStorage
 - [ ] Authentication
 - [ ] Authorization
-- [ ] API design
 - [ ] API versioning
 - [ ] Rate limiting
-- [ ] Testing
-- [ ] Performance optimization
-- [ ] Deployment architecture
+- [ ] Testing strategy
+- [ ] Deployment
+- [ ] Performance profiling
+- [ ] Production troubleshooting
 
 ### Architecture progression
 
 ```text
-CRUD Application
-    ↓
-Well-structured Monolith
-    ↓
-Modular Monolith
-    ↓
-Service-oriented architecture
-    ↓
-Event-driven architecture
-    ↓
-Selective Microservices
+CRUD Rails App → Clean Monolith → Modular Monolith → Async Components → Event-driven Components → Selective Services
 ```
 
-> Do not adopt microservices until the problem actually requires them.
-
-### Milestone
-
-> Build a production-quality Rails application with authentication, authorization, background jobs, caching, file storage, tests, monitoring, and deployment.
-
----
-
-# Phase 03 — Frontend Engineering
-
-### Core
-
-- [ ] HTML
-- [ ] CSS / SCSS
-- [ ] JavaScript
-- [ ] TypeScript
-- [ ] Browser architecture
-- [ ] DOM
-- [ ] HTTP
-- [ ] Cookies
-- [ ] Sessions
-- [ ] CORS
-- [ ] Browser storage
-- [ ] WebSockets
-- [ ] Web performance
-
-### Framework
-
-- [ ] React
-- [ ] Next.js
-- [ ] Server-side rendering
-- [ ] Static generation
-- [ ] Client/server boundaries
-- [ ] Frontend testing
-- [ ] Accessibility
-
-### Milestone
-
-> Build a complete frontend consuming a production Rails API and handle authentication, real-time updates, errors, caching, and performance.
+**Milestone:** Build and operate a production-style Rails application.
 
 ---
 
 # Phase 04 — Database Engineering
 
-**Primary database:** PostgreSQL
+### PostgreSQL
 
-### SQL
-
-- [ ] SELECT / JOIN / GROUP BY
-- [ ] Subqueries
+- [ ] SQL fundamentals
+- [ ] JOINs
 - [ ] CTEs
 - [ ] Window functions
-- [ ] Transactions
 - [ ] Constraints
 - [ ] Normalization
 - [ ] Denormalization
-
-### PostgreSQL internals
-
+- [ ] Transactions
 - [ ] Indexes
 - [ ] B-tree
 - [ ] GIN / GiST
@@ -241,40 +252,21 @@ Selective Microservices
 - [ ] Replication
 - [ ] Read replicas
 - [ ] Partitioning
-- [ ] Backup and recovery
+- [ ] Sharding concepts
+- [ ] Backup / restore
 
-### Scaling
-
-```text
-Single Database
-      ↓
-Indexes
-      ↓
-Query Optimization
-      ↓
-Read Replicas
-      ↓
-Partitioning
-      ↓
-Sharding (when required)
-```
-
-### Milestone
-
-> Diagnose a slow production query and explain exactly why it is slow and how the proposed fix changes the execution plan.
+**Milestone:** Diagnose a slow query and explain the execution plan and trade-off of the fix.
 
 ---
 
-# Phase 05 — Linux
-
-### Learn
+# Phase 05 — Linux & Operating Systems
 
 - [ ] Processes
 - [ ] Threads
 - [ ] Signals
 - [ ] Filesystems
 - [ ] Permissions
-- [ ] Users/groups
+- [ ] Users / groups
 - [ ] systemd
 - [ ] SSH
 - [ ] Cron
@@ -284,41 +276,22 @@ Sharding (when required)
 - [ ] Memory
 - [ ] Disk
 - [ ] File descriptors
+- [ ] Process inspection
+- [ ] Network inspection
 
 ### Commands
 
 ```text
-ps
-htop
-top
-free
-df
-du
-vmstat
-iostat
-ss
-curl
-dig
-nslookup
-tcpdump
-grep
-awk
-sed
-find
-xargs
-journalctl
-systemctl
+ps  top  htop  free  df  du  vmstat  iostat
+ss  curl  dig  grep  awk  sed  find  xargs
+journalctl  systemctl  tcpdump
 ```
 
-### Milestone
-
-> Troubleshoot CPU, memory, disk, process, and networking problems on a Linux server without relying on guesswork.
+**Milestone:** Troubleshoot a Linux server using evidence instead of guesswork.
 
 ---
 
 # Phase 06 — Networking
-
-### Learn
 
 - [ ] OSI model
 - [ ] TCP/IP
@@ -333,38 +306,26 @@ systemctl
 - [ ] HTTP/1.1
 - [ ] HTTP/2
 - [ ] HTTP/3 concepts
-- [ ] HTTPS
 - [ ] TLS
+- [ ] HTTPS
 - [ ] Reverse proxy
 - [ ] Forward proxy
 - [ ] Load balancer
 - [ ] CDN
 - [ ] Firewall
 
-### Exercise
-
-Explain everything that happens when a user enters:
-
-```text
-https://example.com
-```
-
-into a browser.
-
-### Milestone
-
-> Design and troubleshoot the network path from browser → DNS → CDN → load balancer → application → database.
+**Milestone:** Design the path browser → DNS → CDN → load balancer → application → database.
 
 ---
 
 # Phase 07 — Caching & Messaging
 
-## Redis
+### Redis
 
 - [ ] Cache-aside
 - [ ] Write-through
 - [ ] TTL
-- [ ] Eviction policies
+- [ ] Eviction
 - [ ] Distributed locks
 - [ ] Counters
 - [ ] Rate limiting
@@ -373,25 +334,17 @@ into a browser.
 - [ ] Sorted sets
 - [ ] Leaderboards
 
-## Messaging
-
-Learn the differences between:
+### Messaging
 
 - [ ] Queue
 - [ ] Pub/Sub
 - [ ] Event bus
 - [ ] Event stream
-
-Technologies:
-
 - [ ] RabbitMQ
 - [ ] Kafka
 - [ ] AWS SQS
 - [ ] AWS SNS
 - [ ] AWS EventBridge
-
-### Distributed messaging concepts
-
 - [ ] At-most-once delivery
 - [ ] At-least-once delivery
 - [ ] Ordering
@@ -401,106 +354,140 @@ Technologies:
 - [ ] Deduplication
 - [ ] Backpressure
 
-### Milestone
-
-> Design a reliable asynchronous workflow where duplicate messages do not corrupt business state.
+**Milestone:** Design an asynchronous workflow that remains correct when messages are duplicated or delayed.
 
 ---
 
-# Phase 08 — System Design Fundamentals
+# Phase 08 — System Design
 
-### Core concepts
-
-- [ ] Scalability
+- [ ] Requirements gathering
+- [ ] Functional requirements
+- [ ] Non-functional requirements
+- [ ] Capacity estimation
+- [ ] Latency
+- [ ] Throughput
 - [ ] Availability
 - [ ] Reliability
 - [ ] Durability
-- [ ] Latency
-- [ ] Throughput
+- [ ] Scalability
 - [ ] Fault tolerance
-- [ ] Consistency
 - [ ] CAP theorem
 - [ ] PACELC
-- [ ] Eventual consistency
 - [ ] Strong consistency
-
-### Core building blocks
-
+- [ ] Eventual consistency
 - [ ] Load balancers
 - [ ] Caches
 - [ ] Databases
 - [ ] Queues
 - [ ] Object storage
 - [ ] CDN
-- [ ] Search engines
+- [ ] Search
 - [ ] API gateways
 - [ ] Rate limiters
 
-### Design exercises
+### Design practice
 
 - [ ] URL shortener
 - [ ] Rate limiter
 - [ ] Notification system
-- [ ] File storage system
-- [ ] Social media feed
+- [ ] File storage
+- [ ] News feed
 - [ ] Chat system
 - [ ] Video platform
-- [ ] Ride-sharing system
+- [ ] Ride sharing
 - [ ] Payment system
+- [ ] E-commerce system
 
-### Milestone
-
-> Given an unfamiliar product requirement, produce requirements, capacity estimates, APIs, data model, architecture, bottlenecks, failure modes, and scaling strategy.
+**Milestone:** Design an unfamiliar system from requirements through scaling and failure strategy.
 
 ---
 
-# Phase 09 — Docker & Containers
+# Phase 09 — System Architecture 🏗️
 
-- [ ] Images
-- [ ] Containers
-- [ ] Layers
-- [ ] Dockerfile
-- [ ] Volumes
-- [ ] Networks
-- [ ] Environment configuration
-- [ ] Docker Compose
-- [ ] Container registry
-- [ ] Image security
-- [ ] Multi-stage builds
+Use **SYSTEM-ARCHITECTURE.md** as the detailed curriculum.
 
-### Project
+- [ ] Architecture fundamentals
+- [ ] Quality attributes
+- [ ] Layered architecture
+- [ ] Modular monolith
+- [ ] Hexagonal architecture
+- [ ] Clean architecture
+- [ ] Domain-driven design concepts
+- [ ] Bounded contexts
+- [ ] Service boundaries
+- [ ] Data ownership
+- [ ] API boundaries
+- [ ] Communication boundaries
+- [ ] Failure boundaries
+- [ ] Deployment boundaries
+- [ ] Scalability architecture
+- [ ] High availability
+- [ ] Reliability / resilience
+- [ ] Consistency architecture
+- [ ] Security architecture
+- [ ] Observability architecture
+- [ ] Deployment architecture
+- [ ] Multi-region architecture
+- [ ] Cost architecture
+- [ ] Architecture trade-offs
+- [ ] Architecture documentation
+- [ ] ADRs
+- [ ] C4 diagrams
 
-Containerize:
+### Architecture method
 
 ```text
-Rails
- + PostgreSQL
- + Redis
- + Worker
- + Nginx
+Requirements → Constraints → Capacity → Boundaries → Data → Communication → Failure → Scale → Security → Operations → Cost → Trade-offs
 ```
 
-### Milestone
-
-> Build, run, debug, and ship a multi-container application locally.
+**Milestone:** Produce a defensible production architecture and explain every major decision.
 
 ---
 
-# Phase 10 — AWS Fundamentals
+# Phase 10 — Distributed Systems
 
-## Compute
+- [ ] Replication
+- [ ] Partitioning
+- [ ] Sharding
+- [ ] Leader / follower
+- [ ] Leader election
+- [ ] Consensus concepts
+- [ ] Distributed locks
+- [ ] Distributed transactions
+- [ ] Idempotency
+- [ ] Eventual consistency
+- [ ] Ordering
+- [ ] Clock problems
+- [ ] Failure detection
+- [ ] Outbox pattern
+- [ ] Inbox / deduplication
+- [ ] Saga pattern
+- [ ] CQRS
+- [ ] Event sourcing
+- [ ] CDC
+- [ ] Retry pattern
+- [ ] Circuit breaker
+- [ ] Bulkhead
+
+**Milestone:** Explain behavior when machines, networks, queues, or databases fail independently.
+
+---
+
+# Phase 11 — AWS Fundamentals
+
+### Compute
 
 - [ ] EC2
 - [ ] Auto Scaling
 - [ ] ECS
 - [ ] Fargate
 - [ ] Lambda
-- [ ] EKS overview
+- [ ] EKS concepts
 
-## Networking
+### Networking
 
 - [ ] VPC
-- [ ] Public/private subnet
+- [ ] Public / private subnets
 - [ ] Route tables
 - [ ] Internet Gateway
 - [ ] NAT Gateway
@@ -511,134 +498,82 @@ Rails
 - [ ] Route 53
 - [ ] CloudFront
 
-## Storage
+### Data / storage
 
 - [ ] S3
 - [ ] EBS
 - [ ] EFS
-
-## Databases
-
 - [ ] RDS
 - [ ] Aurora
 - [ ] DynamoDB
 - [ ] ElastiCache
 
-## Messaging
+### Messaging / security
 
 - [ ] SQS
 - [ ] SNS
 - [ ] EventBridge
 - [ ] Kinesis concepts
-
-## Security
-
 - [ ] IAM
 - [ ] KMS
 - [ ] Secrets Manager
 - [ ] WAF
 - [ ] CloudTrail
+- [ ] CloudWatch
 
-### Milestone
-
-> Deploy a Rails application on AWS with a secure network, managed database, object storage, load balancing, and backups.
+**Milestone:** Deploy a secure Rails system on AWS using managed infrastructure where appropriate.
 
 ---
 
-# Phase 11 — AWS Architecture
-
-### Architecture progression
+# Phase 12 — AWS System Architecture
 
 ```text
-Level 1
-Route 53 → EC2 → RDS
-
-Level 2
-Route 53 → CloudFront → ALB → EC2 → RDS
-
-Level 3
-CloudFront → WAF → ALB → Auto Scaling → RDS
-                         ↓
-                       Redis
-                         ↓
-                        SQS
-                         ↓
-                      Workers
-
-Level 4
-Multi-AZ + replicas + autoscaling + observability + disaster recovery
-
-Level 5
-Multi-region / global architecture when business requirements justify it
+Level 1: Route 53 → EC2 → RDS
+Level 2: Route 53 → CloudFront → ALB → EC2 → RDS
+Level 3: CloudFront → WAF → ALB → Auto Scaling → RDS + Redis + SQS + Workers
+Level 4: Multi-AZ + replicas + autoscaling + observability + DR
+Level 5: Multi-region when business requirements justify it
 ```
 
-### Learn AWS Well-Architected thinking
-
+- [ ] AWS Well-Architected Framework
 - [ ] Operational excellence
 - [ ] Security
 - [ ] Reliability
 - [ ] Performance efficiency
 - [ ] Cost optimization
 - [ ] Sustainability
+- [ ] Multi-AZ design
+- [ ] Disaster recovery
+- [ ] Multi-region design
+- [ ] AWS service trade-offs
 
-### Milestone
-
-> Design an AWS architecture and defend every major service choice using requirements and trade-offs.
+**Milestone:** Defend AWS service choices using requirements, constraints, cost, and failure analysis.
 
 ---
 
-# Phase 12 — DevOps & CI/CD
+# Phase 13 — DevOps & CI/CD
 
-## GitHub Actions
-
-- [ ] CI pipelines
-- [ ] Test automation
+- [ ] CI
+- [ ] Automated tests
 - [ ] Linting
 - [ ] Security scanning
 - [ ] Build pipelines
-- [ ] Docker image builds
 - [ ] Artifact management
 - [ ] Deployment workflows
 - [ ] Environment promotion
-- [ ] Rollback
-
-### Production pipeline
-
-```text
-GitHub
-  ↓
-CI
-  ↓
-Tests
-  ↓
-Security checks
-  ↓
-Docker build
-  ↓
-Container registry
-  ↓
-Deploy
-  ↓
-Health checks
-  ↓
-Monitoring
-```
-
-### Deployment strategies
-
+- [ ] Rollbacks
+- [ ] Health checks
 - [ ] Rolling deployment
 - [ ] Blue/green deployment
 - [ ] Canary deployment
 - [ ] Feature flags
-- [ ] Rollback strategy
+- [ ] Zero-downtime deployment
 
-### Milestone
-
-> Push code to GitHub and automatically test, build, deploy, verify, and safely roll back a production application.
+**Milestone:** Push code → test → build → deploy → verify → rollback safely.
 
 ---
 
-# Phase 13 — Terraform & Infrastructure as Code
+# Phase 14 — Terraform & Infrastructure as Code
 
 - [ ] Terraform fundamentals
 - [ ] Providers
@@ -651,118 +586,55 @@ Monitoring
 - [ ] State locking
 - [ ] Secrets
 - [ ] Environments
-- [ ] Infrastructure drift
-- [ ] Reusable modules
+- [ ] Drift detection
+- [ ] Reusable infrastructure modules
 
-### Project
-
-Provision:
-
-```text
-VPC
-Subnets
-Security Groups
-ALB
-Compute
-RDS
-S3
-Redis
-IAM
-Monitoring
-```
-
-using Terraform.
-
-### Milestone
-
-> Recreate an environment from code without manually clicking through the AWS console.
+**Milestone:** Recreate an environment from code without manually configuring every resource.
 
 ---
 
-# Phase 14 — Observability & Reliability
+# Phase 15 — Observability & Reliability
 
-## Three pillars
-
-```text
-Logs
-Metrics
-Traces
-```
-
-### Learn
+### Observability
 
 - [ ] Structured logging
-- [ ] Correlation IDs
 - [ ] Metrics
 - [ ] Distributed tracing
+- [ ] Correlation IDs
+- [ ] Request IDs
+- [ ] Golden signals
+- [ ] SLI
+- [ ] SLO
+- [ ] SLA
+- [ ] Alert design
+- [ ] Dashboards
 - [ ] OpenTelemetry
 - [ ] Prometheus
 - [ ] Grafana
 - [ ] CloudWatch
-- [ ] Alerting
-- [ ] Dashboards
-- [ ] SLI
-- [ ] SLO
-- [ ] SLA
 
 ### Reliability
 
-- [ ] Health checks
 - [ ] Timeouts
 - [ ] Retries
 - [ ] Exponential backoff
+- [ ] Jitter
 - [ ] Circuit breakers
 - [ ] Bulkheads
+- [ ] Load shedding
 - [ ] Backpressure
 - [ ] Graceful degradation
+- [ ] Fault isolation
 - [ ] Disaster recovery
 - [ ] RTO
 - [ ] RPO
+- [ ] Incident response
 
-### Milestone
-
-> Detect, investigate, and explain a production incident using logs, metrics, and traces.
-
----
-
-# Phase 15 — Distributed Systems
-
-### Core concepts
-
-- [ ] Replication
-- [ ] Partitioning
-- [ ] Sharding
-- [ ] Leader/follower architecture
-- [ ] Leader election
-- [ ] Consensus concepts
-- [ ] Distributed locks
-- [ ] Distributed transactions
-- [ ] Idempotency
-- [ ] Eventual consistency
-- [ ] Ordering
-- [ ] Clock/time problems
-- [ ] Failure detection
-
-### Patterns
-
-- [ ] Outbox pattern
-- [ ] Saga pattern
-- [ ] CQRS
-- [ ] Event sourcing
-- [ ] Change Data Capture
-- [ ] Retry pattern
-- [ ] Circuit breaker
-- [ ] Bulkhead
-
-### Milestone
-
-> Explain how a distributed system behaves when machines, networks, queues, or databases fail independently.
+**Milestone:** Investigate a simulated production incident using logs, metrics, and traces.
 
 ---
 
-# Phase 16 — Kubernetes & EKS
-
-## Kubernetes
+# Phase 16 — Kubernetes & Platform Engineering
 
 - [ ] Pod
 - [ ] Deployment
@@ -777,482 +649,269 @@ Traces
 - [ ] CronJob
 - [ ] HPA
 - [ ] RBAC
-
-## AWS EKS
-
-- [ ] Cluster architecture
-- [ ] Networking
+- [ ] EKS cluster architecture
+- [ ] Kubernetes networking
 - [ ] Load balancers
 - [ ] Autoscaling
 - [ ] IAM integration
 - [ ] Deployment strategy
 - [ ] Observability
+- [ ] EC2 vs ECS
+- [ ] ECS vs EKS
+- [ ] Containers vs Lambda
 
-### Important decision
-
-Understand when:
-
-```text
-EC2 vs ECS vs EKS vs Lambda
-```
-
-is appropriate.
-
-### Milestone
-
-> Deploy and operate a production-style application on Kubernetes and explain the operational cost and benefits compared with ECS.
+**Milestone:** Deploy and operate a production-style workload on Kubernetes and justify its operational cost.
 
 ---
 
 # Phase 17 — Security Engineering
 
-### Application security
-
 - [ ] OWASP Top 10
+- [ ] Threat modeling
+- [ ] Trust boundaries
 - [ ] Authentication
 - [ ] Authorization
-- [ ] Sessions
 - [ ] OAuth2
 - [ ] OIDC
-- [ ] JWT
-- [ ] CSRF
-- [ ] XSS
-- [ ] SQL injection
-- [ ] SSRF
-- [ ] CORS
-- [ ] Input validation
+- [ ] JWT trade-offs
+- [ ] Session security
 - [ ] Secrets management
-- [ ] Encryption
-- [ ] TLS
-
-### Cloud security
-
-- [ ] IAM least privilege
-- [ ] KMS
-- [ ] Secrets Manager
+- [ ] Encryption in transit
+- [ ] Encryption at rest
+- [ ] IAM
+- [ ] Least privilege
+- [ ] Network segmentation
 - [ ] WAF
-- [ ] CloudTrail
-- [ ] GuardDuty concepts
-- [ ] Security Hub concepts
-- [ ] Network isolation
+- [ ] DDoS protection concepts
+- [ ] Audit logging
+- [ ] Security monitoring
 
-### Milestone
-
-> Threat-model an application and identify practical controls for identity, network, data, secrets, and application-layer attacks.
+**Milestone:** Threat-model a production architecture and identify realistic attack paths and mitigations.
 
 ---
 
-# Phase 18 — AI Engineering 🤖
+# Phase 18 — AI Engineering
 
-AI should be learned as **production software engineering**, not only as model theory.
-
-### Foundations
-
-- [ ] Python fundamentals
-- [ ] NumPy basics
-- [ ] Pandas basics
-- [ ] ML concepts
-- [ ] Neural-network concepts
-- [ ] Transformers concepts
-- [ ] LLM fundamentals
-
-### LLM application engineering
-
+- [ ] Python for AI engineering
 - [ ] LLM APIs
 - [ ] Prompt engineering
-- [ ] Structured outputs
-- [ ] Tool calling
-- [ ] Streaming
-- [ ] Token usage
-- [ ] Context windows
-- [ ] Model selection
-- [ ] Model routing
-- [ ] Prompt caching
-
-### RAG
-
 - [ ] Embeddings
-- [ ] Chunking
 - [ ] Vector search
 - [ ] pgvector
+- [ ] RAG
 - [ ] Hybrid search
 - [ ] Reranking
-- [ ] Retrieval evaluation
-- [ ] Citation/grounding strategies
-
-### Agents
-
-- [ ] Tool use
-- [ ] Planning
-- [ ] Memory
-- [ ] State
-- [ ] Human approval
-- [ ] Agent evaluation
+- [ ] Context management
+- [ ] Tool calling
+- [ ] Agents
+- [ ] AI workflow orchestration
+- [ ] Streaming responses
+- [ ] AI caching
+- [ ] Evaluation
 - [ ] Guardrails
-- [ ] Failure handling
-
-### Production AI
-
+- [ ] Model fallback
 - [ ] AI observability
-- [ ] Evaluation datasets
-- [ ] Hallucination detection strategies
-- [ ] Cost control
-- [ ] Latency optimization
-- [ ] Caching
-- [ ] Rate limiting
-- [ ] Security and privacy
+- [ ] AI cost control
 
-### Suggested stack
-
-```text
-Rails
- + PostgreSQL
- + pgvector
- + Redis
- + S3
- + LLM APIs
- + Python/FastAPI when specialized AI services are needed
-```
-
-### Milestone
-
-> Build a production AI feature that retrieves trusted knowledge, uses tools safely, streams responses, tracks cost/latency, and has evaluation coverage.
+**Milestone:** Build a reliable AI feature with retrieval, evaluation, guardrails, observability, and cost awareness.
 
 ---
 
 # Phase 19 — AI System Design
 
-Design systems where AI is one component of a larger distributed application.
-
-### Architecture
-
-```text
-User
- ↓
-Frontend
- ↓
-Rails API
- ↓
-AI Gateway
- ├── LLM
- ├── Retrieval
- ├── Vector DB
- ├── Tools
- ├── Business APIs
- └── Guardrails
- ↓
-PostgreSQL / Redis / S3
-```
-
-### Learn
-
-- [ ] AI gateway architecture
-- [ ] Multi-model routing
-- [ ] RAG architecture
-- [ ] Agent architecture
-- [ ] AI queues
-- [ ] Async inference
-- [ ] Streaming
-- [ ] AI caching
-- [ ] AI rate limiting
-- [ ] Evaluation pipelines
-- [ ] AI observability
+- [ ] LLM gateway
+- [ ] Model routing
 - [ ] Model fallback
-- [ ] Cost-aware architecture
+- [ ] Prompt/version management
+- [ ] Retrieval architecture
+- [ ] Vector database architecture
+- [ ] RAG pipelines
+- [ ] Agent architecture
+- [ ] Tool execution architecture
+- [ ] AI queues / async jobs
+- [ ] Streaming architecture
+- [ ] AI caching
+- [ ] AI evaluation pipelines
+- [ ] AI safety / guardrails
+- [ ] AI cost architecture
+- [ ] AI observability
 
-### Design exercises
-
-- [ ] AI tutor
-- [ ] AI customer-support system
-- [ ] AI document assistant
-- [ ] AI coding assistant
-- [ ] AI recommendation engine
-- [ ] Multi-agent workflow
-
-### Milestone
-
-> Design an AI system that remains reliable, observable, secure, and cost-controlled under large traffic.
+**Milestone:** Design an AI platform that remains reliable and economically viable as usage grows.
 
 ---
 
-# Phase 20 — Capstone: Adhyayanshala
+# Phase 20 — Architecture Projects 🧩
 
-Use **Adhyayanshala** as the long-term engineering laboratory.
+- [ ] URL Shortener
+- [ ] Rate Limiter
+- [ ] Notification System
+- [ ] File Storage System
+- [ ] News Feed
+- [ ] Chat System
+- [ ] Video Streaming Platform
+- [ ] Search System
+- [ ] Ride Sharing System
+- [ ] Payment System
+- [ ] E-commerce Platform
+- [ ] Learning Management System
+- [ ] AI Assistant Platform
 
-The architecture should evolve instead of starting as an unnecessarily complex distributed system.
+For each project:
 
-### Evolution
-
-```text
-Phase A — Rails Monolith
-
-Rails
- + PostgreSQL
- + SCSS
-
-        ↓
-
-Phase B — Production Application
-
-Rails
- + PostgreSQL
- + Redis
- + Background Jobs
- + S3
-
-        ↓
-
-Phase C — Cloud
-
-AWS
- + ALB
- + Auto Scaling
- + RDS
- + ElastiCache
- + S3
- + CloudFront
-
-        ↓
-
-Phase D — DevOps
-
-GitHub Actions
- + Docker
- + Terraform
- + Automated deployments
-
-        ↓
-
-Phase E — Reliability
-
-Observability
- + Metrics
- + Logs
- + Traces
- + Alerts
- + Disaster Recovery
-
-        ↓
-
-Phase F — Distributed Systems
-
-SQS / Events
- + Workers
- + Read replicas
- + Partitioning
- + Event-driven workflows
-
-        ↓
-
-Phase G — AI
-
-AI Tutor
- + RAG
- + pgvector
- + Personalization
- + Tool calling
-
-        ↓
-
-Phase H — Large Scale
-
-Horizontal scaling
- + Multi-AZ
- + CDN
- + Async processing
- + Search
- + Regional architecture when justified
-```
-
-### Capstone capabilities
-
-- [ ] Student accounts
-- [ ] Courses
-- [ ] Subjects
-- [ ] Lessons
-- [ ] Questions
-- [ ] Exams
-- [ ] Results
-- [ ] Progress tracking
-- [ ] Search
-- [ ] Notifications
-- [ ] File/media delivery
-- [ ] Analytics
-- [ ] AI tutor
-- [ ] Personalized learning
-- [ ] Recommendation system
-- [ ] Admin platform
-- [ ] Teacher platform
-- [ ] Observability
-- [ ] Security
+- [ ] Requirements
+- [ ] Assumptions
+- [ ] Capacity estimation
+- [ ] API design
+- [ ] Data model
+- [ ] High-level architecture
+- [ ] Detailed component design
+- [ ] Failure analysis
+- [ ] Scaling strategy
+- [ ] Security design
+- [ ] Observability design
 - [ ] Disaster recovery
-- [ ] Load testing
-
-### Scale exercises
-
-For every major subsystem, ask:
-
-```text
-10 users?
- ↓
-1,000 users?
- ↓
-100,000 users?
- ↓
-1 million users?
- ↓
-10 million users?
- ↓
-100 million users?
-```
-
-The goal is not to claim that the system can handle billions immediately. The goal is to understand **which bottleneck appears first and what architectural change removes it**.
+- [ ] Cost analysis
+- [ ] Trade-offs
+- [ ] Architecture diagram
+- [ ] Implementation / prototype
+- [ ] Load/performance experiment
+- [ ] Final architecture review
 
 ---
 
-# Phase 21 — Senior / Staff Engineering Skills
+# Phase 21 — Senior/Staff Engineering
 
-Technology alone is not enough.
-
-### Engineering judgment
-
-- [ ] Architecture trade-offs
-- [ ] Cost/performance trade-offs
-- [ ] Build vs buy
-- [ ] Operational complexity
-- [ ] Technical debt
-- [ ] Migration strategies
-- [ ] Backward compatibility
-- [ ] API evolution
-- [ ] Reliability vs velocity
-
-### Leadership
-
-- [ ] Technical proposals
-- [ ] Architecture Decision Records
-- [ ] Code reviews
-- [ ] Mentoring
-- [ ] Incident reviews
+- [ ] Technical decision making
+- [ ] Architecture reviews
+- [ ] ADR writing
+- [ ] RFC writing
 - [ ] Technical documentation
-- [ ] Project estimation
+- [ ] Incident leadership
+- [ ] Root-cause analysis
+- [ ] Mentoring
+- [ ] Code review leadership
+- [ ] Cross-team communication
+- [ ] Technical strategy
+- [ ] Roadmap planning
 - [ ] Risk management
+- [ ] Cost/performance trade-offs
+- [ ] Migration planning
+- [ ] Legacy modernization
+- [ ] Build vs buy decisions
+- [ ] Communicating architecture to technical and non-technical stakeholders
 
-### Communication
-
-Practice explaining every design in three levels:
-
-1. **30-second explanation** — executive level
-2. **5-minute explanation** — engineering overview
-3. **30-minute deep dive** — implementation and trade-offs
-
-### Milestone
-
-> Lead the design of a significant system and help other engineers understand, implement, operate, and evolve it.
+**Final milestone:** Drive an ambiguous requirement from requirements → architecture → implementation strategy → deployment → observability → scaling → incident readiness → long-term evolution.
 
 ---
 
-# 🧪 Project Ladder
+# 📅 12-Month Target
 
-Build increasingly difficult systems.
-
-| Level | Project | Main Skills |
-|---|---|---|
-| 1 | URL Shortener | APIs, DB, caching |
-| 2 | Task Manager | Rails, auth, testing |
-| 3 | E-commerce | transactions, payments concepts |
-| 4 | Social Feed | caching, fanout |
-| 5 | Notification Service | queues, workers |
-| 6 | Chat System | WebSockets, presence |
-| 7 | Video Platform | S3, CDN, processing |
-| 8 | Ride Sharing | geospatial, events |
-| 9 | AI Knowledge Assistant | RAG, embeddings |
-| 10 | Adhyayanshala | Full production architecture |
+| Month | Focus |
+|---|---|
+| 01 | Fundamentals + Ruby + Rails |
+| 02 | PostgreSQL + Redis + performance |
+| 03 | Linux + Networking |
+| 04 | System Design |
+| 05 | System Architecture + Distributed Systems |
+| 06 | AWS Fundamentals |
+| 07 | AWS Architecture |
+| 08 | DevOps + CI/CD + Containers |
+| 09 | Terraform + Observability + Security |
+| 10 | Kubernetes + EKS |
+| 11 | AI Engineering |
+| 12 | AI System Design + Architecture Projects |
 
 ---
 
-# 📚 Weekly Study Method
+# 🗓️ Weekly Checklist
 
-Use this cycle every week:
+Target: **~20 hours/week**.
+
+### Monday–Friday
+
+- [ ] 1 hour theory
+- [ ] 1 hour coding/practice
+- [ ] 1 hour project/experiment
+
+### Saturday
+
+- [ ] 2 hours project
+- [ ] 1 hour system design
+- [ ] 1 hour review
+- [ ] 1 hour documentation
+
+### Sunday
+
+- [ ] Rest
+- [ ] Optional 1–2 hour review
+
+### Weekly definition of done
+
+- [ ] Learned the concepts
+- [ ] Solved exercises
+- [ ] Built/implemented something
+- [ ] Performed an experiment
+- [ ] Investigated one bottleneck/failure
+- [ ] Documented lessons
+- [ ] Explained the topic without notes
+
+---
+
+# 📁 Repository Structure
 
 ```text
-Day 1 — Learn concepts
-Day 2 — Read implementation details
-Day 3 — Build
-Day 4 — Build
-Day 5 — Test / benchmark / break
-Day 6 — System design + documentation
-Day 7 — Review + interview questions
+engineering-journey/
+├── README.md
+├── SYSTEM-ARCHITECTURE.md
+├── 01-engineering-fundamentals/
+├── 02-ruby-backend/
+├── 03-rails/
+├── 04-database/
+├── 05-linux/
+├── 06-networking/
+├── 07-caching-messaging/
+├── 08-system-design/
+├── 09-system-architecture/
+├── 10-distributed-systems/
+├── 11-aws/
+├── 12-aws-architecture/
+├── 13-devops/
+├── 14-terraform/
+├── 15-observability-reliability/
+├── 16-kubernetes/
+├── 17-security/
+├── 18-ai-engineering/
+├── 19-ai-system-design/
+├── 20-architecture-projects/
+└── 21-senior-staff-engineering/
 ```
 
-Recommended ratio:
+Each folder can contain notes, exercises, code, experiments, diagrams, ADRs, and project write-ups.
+
+---
+
+# 🚀 Start Here
+
+Start with **Phase 01 → Ruby/Rails internals → PostgreSQL/Redis**, then move into system design and architecture.
+
+Do not try to learn every technology first. Build while learning.
 
 ```text
-30% Theory
-50% Building
-10% Debugging / Performance
-10% Documentation / Explanation
+Single machine
+   ↓
+Production application
+   ↓
+Horizontally scaled application
+   ↓
+Highly available system
+   ↓
+Distributed system
+   ↓
+Cloud architecture
+   ↓
+Global architecture
+   ↓
+AI-enabled architecture
 ```
 
----
-
-# 🧠 Engineering Thinking Checklist
-
-Before choosing a technology, ask:
-
-- What problem am I solving?
-- What are the traffic characteristics?
-- What are the latency requirements?
-- What consistency is required?
-- What happens when this component fails?
-- How will it scale?
-- How will I monitor it?
-- How will I secure it?
-- What will it cost?
-- Can I operate it as a small team?
-- What is the simplest architecture that works?
-
----
-
-# 🏁 Definition of Done
-
-This journey is not complete when every checkbox is ticked.
-
-It is complete when you can independently:
-
-```text
-Understand a requirement
-        ↓
-Estimate scale
-        ↓
-Model the data
-        ↓
-Design APIs
-        ↓
-Choose architecture
-        ↓
-Implement it
-        ↓
-Test it
-        ↓
-Deploy it
-        ↓
-Observe it
-        ↓
-Secure it
-        ↓
-Debug it
-        ↓
-Scale it
-        ↓
-Explain the trade-offs
-```
-
----
-
-# ⭐ Guiding Principle
-
-> **Don't become a developer who knows many tools. Become an engineer who knows how to solve problems with the right tools.**
-
-The final target is:
-
-**Full-Stack Engineering + System Design + AWS + DevOps + Distributed Systems + AI = Production Engineering Mastery.**
+> **The objective is engineering capability, not a technology checklist.**
