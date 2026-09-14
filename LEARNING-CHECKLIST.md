@@ -1,96 +1,324 @@
 # Learning Checklist ✅
 
-Use this file as the **personal progress tracker** for the Engineering Journey.
+Use this as the **single progress tracker** for the Engineering Journey.
 
-## Status
+## Status convention
 
 - [ ] Not started
-- [~] In progress
-- [x] Completed
-- [!] Needs review
+- [x] Learned / completed
+- [~] In progress (manual marker)
+- [!] Needs review (manual marker)
 
-> GitHub renders `[ ]` and `[x]` as clickable task checkboxes. `[~]` and `[!]` are visual status markers for manual tracking.
+> GitHub's `[ ]` / `[x]` checkboxes are clickable. For important topics, use the deeper completion checklist below rather than checking an item after only watching a tutorial.
+
+## Deep completion standard
+
+For every important topic:
+
+- [ ] Learned
+- [ ] Practiced
+- [ ] Built
+- [ ] Deployed (when applicable)
+- [ ] Measured
+- [ ] Tested failure (when applicable)
+- [ ] Fixed
+- [ ] Documented
+- [ ] Explained
 
 ---
 
 # Phase 01 — Engineering Fundamentals
 
-- [ ] Big-O
+- [ ] Big-O time complexity
 - [ ] Space complexity
 - [ ] Data structures
 - [ ] Algorithms
 - [ ] OOP
+- [ ] Composition vs inheritance
 - [ ] SOLID
+- [ ] Design patterns
 - [ ] Clean code
-- [ ] Testing
-- [ ] Processes / threads
-- [ ] Concurrency
+- [ ] Testing strategy
+- [ ] Processes vs threads
+- [ ] Concurrency / parallelism
 - [ ] Race conditions
-- [ ] Deadlocks
-- [ ] Git advanced workflows
+- [ ] Deadlocks / mutexes
+- [ ] Advanced Git
 
-### Phase completion
-
-- [ ] Learned
-- [ ] Practiced
-- [ ] Built
-- [ ] Measured
-- [ ] Documented
-- [ ] Explained
-
-# Phase 02 — Ruby & Backend
+# Phase 02 — Ruby + Advanced Ruby
 
 - [ ] Ruby object model
 - [ ] Method lookup
+- [ ] Singleton classes
 - [ ] Blocks / Proc / Lambda
+- [ ] Closures
 - [ ] Modules / mixins
+- [ ] Enumerables
+- [ ] Fibers
+- [ ] Threads
+- [ ] Ractors concepts
+- [ ] Ruby VM concepts
+- [ ] Memory allocation
+- [ ] Garbage collection
+- [ ] Memory profiling
+- [ ] CPU profiling
 - [ ] Metaprogramming
-- [ ] Memory / GC
-- [ ] Concurrency
-- [ ] Profiling / benchmarking
-- [ ] API design
-- [ ] Idempotency
-- [ ] Rate limiting
+- [ ] Performance optimization
 
-### Phase completion
+# Phase 03 — Rails + Hotwire + Stimulus
 
-- [ ] Learned
-- [ ] Practiced
-- [ ] Built
-- [ ] Measured
-- [ ] Documented
-- [ ] Explained
-
-# Phase 03 — Rails Production Engineering
-
+## Rails
 - [ ] Request lifecycle
-- [ ] ActiveRecord internals
-- [ ] Transactions / locks
-- [ ] Connection pooling
-- [ ] N+1 optimization
-- [ ] Background jobs
+- [ ] Routing
+- [ ] Controllers / views / models
+- [ ] Active Record
+- [ ] Active Model
+- [ ] Associations
+- [ ] Validations
+- [ ] Callbacks / concerns
+- [ ] Service / domain objects
+- [ ] Transactions
+- [ ] Active Job
+- [ ] Active Storage
+- [ ] Action Mailer
+- [ ] Action Cable
 - [ ] Caching
-- [ ] ActionCable
-- [ ] Authentication / authorization
+- [ ] Sessions
+- [ ] Authentication
+- [ ] Authorization
+- [ ] API design
 - [ ] API versioning
-- [ ] Production performance
+- [ ] Rate limiting
+- [ ] Security
+- [ ] Testing
+- [ ] Performance
+- [ ] Deployment architecture
+
+## Hotwire
+- [ ] Hotwire architecture
+- [ ] Turbo Drive
+- [ ] Turbo Frames
+- [ ] Turbo Streams
+- [ ] Turbo Morphing concepts
+- [ ] Turbo caching
+- [ ] Turbo Native concepts
+- [ ] Progressive enhancement
+- [ ] Server-rendered interactions
+- [ ] Real-time Turbo UI
+
+## Stimulus
+- [ ] Controllers
+- [ ] Lifecycle callbacks
+- [ ] Actions
+- [ ] Targets
+- [ ] Values
+- [ ] Classes
+- [ ] Events
+- [ ] Reusable controllers
+- [ ] Stimulus + Turbo
+- [ ] Stimulus + forms
+- [ ] Async UI
+- [ ] UI state management
+- [ ] Testing
+
+# Phase 04 — JavaScript Core + TypeScript
+
+## JavaScript language
+- [ ] Scope
+- [ ] Primitive vs reference values
+- [ ] Objects / arrays
+- [ ] Functions
+- [ ] Arrow functions
+- [ ] Closures
+- [ ] `this`
+- [ ] call / apply / bind
+- [ ] Prototypes
+- [ ] Prototype chain
+- [ ] Classes
+- [ ] Inheritance
+- [ ] Modules
+- [ ] Destructuring
+- [ ] Spread / rest
+- [ ] Iterators
+- [ ] Generators
+- [ ] Symbols
+- [ ] Map / Set
+- [ ] WeakMap / WeakSet
+
+## Runtime
+- [ ] Execution context
+- [ ] Call stack
+- [ ] Heap
+- [ ] Event loop
+- [ ] Microtasks / macrotasks
+- [ ] Promises
+- [ ] async / await
+- [ ] Timers
+- [ ] Fetch
+- [ ] AbortController
+- [ ] Web Workers
+- [ ] Service Workers concepts
+- [ ] Memory leaks
+
+## Browser
+- [ ] DOM
+- [ ] Events / propagation
+- [ ] Event delegation
+- [ ] Forms
+- [ ] Cookies
+- [ ] Local Storage
+- [ ] Session Storage
+- [ ] IndexedDB concepts
+- [ ] CORS
+- [ ] CSP concepts
+- [ ] WebSockets
+- [ ] SSE
+- [ ] HTTP caching
+- [ ] Browser security model
+- [ ] Rendering pipeline
+
+## Tooling
+- [ ] npm / Yarn
+- [ ] ESM / CommonJS
+- [ ] Vite
+- [ ] Bundling
+- [ ] Code splitting
+- [ ] Tree shaking
+- [ ] Source maps
+- [ ] Linting / formatting
+- [ ] Unit testing
+- [ ] Browser testing
+
+## TypeScript
+- [ ] Interfaces / type aliases
+- [ ] Union / intersection types
+- [ ] Generics
+- [ ] Literal types
+- [ ] Utility types
+- [ ] Conditional types
+- [ ] Mapped types
+- [ ] Type narrowing
+- [ ] Type guards
+- [ ] `unknown` vs `any`
+- [ ] Declaration files
+- [ ] tsconfig
+- [ ] Type-safe API clients
+
+# Phase 05 — Frontend Framework Engineering
+
+## React
+- [ ] JSX
+- [ ] Components / props / state
+- [ ] Events
+- [ ] Forms
+- [ ] Hooks
+- [ ] useState / useEffect
+- [ ] useMemo / useCallback / useRef
+- [ ] Custom hooks
+- [ ] Context
+- [ ] Composition
+- [ ] Error boundaries
+- [ ] Suspense concepts
+- [ ] Concurrent rendering concepts
+- [ ] Server Components concepts
+- [ ] Client vs server state
+- [ ] Data fetching
+- [ ] Optimistic UI
+- [ ] State management
+- [ ] Testing
+- [ ] Accessibility
+- [ ] Performance
+
+## Next.js
+- [ ] App Router
+- [ ] Routing / layouts
+- [ ] Server / Client Components
+- [ ] Server Actions concepts
+- [ ] Route handlers
+- [ ] Middleware/proxy concepts
+- [ ] SSR
+- [ ] SSG
+- [ ] ISR
+- [ ] Streaming
+- [ ] Caching
+- [ ] Revalidation
+- [ ] Metadata
+- [ ] Authentication architecture
 - [ ] Deployment
 
-### Phase completion
+## Vue 3
+- [ ] Composition API
+- [ ] Reactivity
+- [ ] ref / reactive / computed / watch
+- [ ] Lifecycle
+- [ ] Composables
+- [ ] Component communication
+- [ ] Slots
+- [ ] Forms
+- [ ] Routing
+- [ ] Pinia
+- [ ] Performance
+- [ ] Testing
 
-- [ ] Learned
-- [ ] Practiced
-- [ ] Built
-- [ ] Deployed
-- [ ] Measured
-- [ ] Documented
-- [ ] Explained
+## Angular
+- [ ] Components / templates
+- [ ] Directives
+- [ ] Dependency injection
+- [ ] Services
+- [ ] Signals
+- [ ] Reactive forms
+- [ ] Routing / guards
+- [ ] HTTP client
+- [ ] Interceptors
+- [ ] RxJS
+- [ ] Observables / operators
+- [ ] Change detection
+- [ ] Standalone components
+- [ ] State management
+- [ ] Testing
+- [ ] Performance
 
-# Phase 04 — Database Engineering
+## Frontend Architecture
+- [ ] Component architecture
+- [ ] Design systems
+- [ ] Design tokens
+- [ ] Client vs server state
+- [ ] API integration
+- [ ] Authentication flows
+- [ ] Loading / empty / error states
+- [ ] Optimistic updates
+- [ ] Offline-first concepts
+- [ ] WebSockets / SSE
+- [ ] Performance budgets
+- [ ] Core Web Vitals concepts
+- [ ] Accessibility / WCAG concepts
+- [ ] Internationalization
+- [ ] Frontend security
+- [ ] Testing strategy
+- [ ] Observability
 
-- [ ] Advanced SQL
+## Framework decisions
+- [ ] Rails + Hotwire + Stimulus
+- [ ] Rails + React
+- [ ] Rails + Vue
+- [ ] Rails + Angular
+- [ ] Rails API + Next.js
+- [ ] Compare performance
+- [ ] Compare developer experience
+- [ ] Compare operational complexity
+- [ ] Document when to choose each
+
+# Phase 06 — PostgreSQL + Database
+
+- [ ] SQL
+- [ ] Joins / CTEs / window functions
+- [ ] Constraints
+- [ ] Normalization / denormalization
+- [ ] ACID / transactions
 - [ ] Indexes
-- [ ] EXPLAIN ANALYZE
+- [ ] B-tree / GIN / GiST
+- [ ] Composite / covering indexes
+- [ ] EXPLAIN / EXPLAIN ANALYZE
 - [ ] Query planner
 - [ ] MVCC
 - [ ] Locks
@@ -99,92 +327,93 @@ Use this file as the **personal progress tracker** for the Engineering Journey.
 - [ ] Replication
 - [ ] Read replicas
 - [ ] Partitioning
-- [ ] Sharding concepts
 - [ ] Backup / recovery
+- [ ] Sharding concepts
 
-# Phase 05 — Linux
+# Phase 07 — Linux + Networking
 
-- [ ] Processes
-- [ ] Threads
-- [ ] Signals
-- [ ] Filesystems
-- [ ] Permissions
-- [ ] systemd
-- [ ] SSH
+- [ ] Processes / threads / signals
+- [ ] Filesystems / permissions
+- [ ] systemd / SSH / cron
 - [ ] Logs
-- [ ] CPU / memory / disk troubleshooting
-- [ ] Network troubleshooting
-
-# Phase 06 — Networking
-
+- [ ] CPU / memory / disk
+- [ ] File descriptors
+- [ ] Process debugging
 - [ ] OSI / TCP-IP
-- [ ] IP / CIDR
-- [ ] Subnets
-- [ ] Routing
-- [ ] NAT
+- [ ] IP / CIDR / subnets
+- [ ] Routing / NAT
 - [ ] DNS
 - [ ] TCP / UDP
-- [ ] HTTP
-- [ ] TLS / HTTPS
+- [ ] HTTP/1.1 / HTTP/2 / HTTP/3 concepts
+- [ ] TLS
 - [ ] Reverse proxy
-- [ ] Load balancer
+- [ ] Load balancing
 - [ ] CDN
+- [ ] Firewall
 
-# Phase 07 — Caching & Messaging
+# Phase 08 — Caching + Messaging
 
 - [ ] Redis fundamentals
 - [ ] Cache-aside
+- [ ] Write-through
 - [ ] TTL / eviction
-- [ ] Distributed locks
+- [ ] Counters
 - [ ] Rate limiting
+- [ ] Distributed locks
+- [ ] Sessions
 - [ ] Pub/Sub
+- [ ] Sorted sets / leaderboards
+- [ ] Queue vs Pub/Sub vs event bus vs stream
 - [ ] RabbitMQ
 - [ ] Kafka
-- [ ] SQS / SNS
-- [ ] EventBridge
-- [ ] Delivery guarantees
+- [ ] SQS / SNS / EventBridge
+- [ ] At-most-once
+- [ ] At-least-once
+- [ ] Ordering
 - [ ] Retries / DLQ
-- [ ] Idempotency / deduplication
+- [ ] Idempotency
+- [ ] Deduplication
 - [ ] Backpressure
 
-# Phase 08 — System Design
+# Phase 09 — System Design
 
 - [ ] Requirements
+- [ ] Constraints / assumptions
 - [ ] Capacity estimation
-- [ ] Scalability
-- [ ] Availability
-- [ ] Reliability
 - [ ] Latency / throughput
+- [ ] Availability / reliability / durability
+- [ ] Scalability
 - [ ] CAP
 - [ ] PACELC
-- [ ] Consistency
-- [ ] Load balancing
-- [ ] Caching
+- [ ] Consistency models
+- [ ] Load balancers
+- [ ] Caches
 - [ ] Queues
 - [ ] Object storage
 - [ ] Search
+- [ ] API gateways
 - [ ] Rate limiting
 
 ### Design projects
-
 - [ ] URL shortener
 - [ ] Rate limiter
 - [ ] Notification system
 - [ ] File storage
 - [ ] News feed
-- [ ] Chat system
+- [ ] Chat
 - [ ] Video platform
+- [ ] Search
 - [ ] Ride sharing
 - [ ] Payment system
 
-# Phase 09 — System Architecture
+# Phase 10 — System Architecture
 
 - [ ] Architecture fundamentals
 - [ ] Quality attributes
 - [ ] Layered architecture
 - [ ] Modular monolith
-- [ ] Hexagonal architecture
-- [ ] Clean architecture
+- [ ] Hexagonal / clean architecture
+- [ ] Domain-driven design concepts
 - [ ] Bounded contexts
 - [ ] Service boundaries
 - [ ] Data ownership
@@ -202,16 +431,18 @@ Use this file as the **personal progress tracker** for the Engineering Journey.
 - [ ] ADRs
 - [ ] C4 diagrams
 
-# Phase 10 — Distributed Systems
+# Phase 11 — Distributed Systems
 
 - [ ] Replication
 - [ ] Partitioning
 - [ ] Sharding
+- [ ] Leader/follower
 - [ ] Leader election
 - [ ] Consensus concepts
 - [ ] Distributed locks
 - [ ] Distributed transactions
-- [ ] Event ordering
+- [ ] Idempotency
+- [ ] Ordering
 - [ ] Failure detection
 - [ ] Outbox
 - [ ] Inbox / deduplication
@@ -220,70 +451,60 @@ Use this file as the **personal progress tracker** for the Engineering Journey.
 - [ ] Event sourcing
 - [ ] CDC
 
-# Phase 11 — AWS Fundamentals
+# Phase 12 — AWS Fundamentals
 
-- [ ] EC2
-- [ ] Auto Scaling
-- [ ] ECS
-- [ ] Fargate
+- [ ] EC2 / Auto Scaling
+- [ ] ECS / Fargate
 - [ ] Lambda
-- [ ] VPC
-- [ ] Subnets
-- [ ] Route tables
-- [ ] NAT Gateway
-- [ ] Security Groups
+- [ ] VPC / subnets / routes
+- [ ] Internet / NAT gateways
+- [ ] Security Groups / NACLs
 - [ ] ALB / NLB
-- [ ] Route 53
-- [ ] CloudFront
-- [ ] S3
-- [ ] EBS / EFS
-- [ ] RDS
-- [ ] Aurora
-- [ ] DynamoDB
+- [ ] Route 53 / CloudFront
+- [ ] S3 / EBS / EFS
+- [ ] RDS / Aurora / DynamoDB
 - [ ] ElastiCache
 - [ ] SQS / SNS / EventBridge
-- [ ] IAM
-- [ ] KMS
-- [ ] Secrets Manager
-- [ ] WAF
-- [ ] CloudTrail / CloudWatch
+- [ ] IAM / KMS / Secrets Manager
+- [ ] WAF / CloudTrail / CloudWatch
 
-# Phase 12 — AWS Architecture
+# Phase 13 — AWS Architecture
 
-- [ ] Single-AZ architecture
-- [ ] Multi-AZ architecture
-- [ ] Auto scaling architecture
+- [ ] Well-Architected thinking
+- [ ] Multi-AZ
+- [ ] Autoscaling
 - [ ] Managed database architecture
 - [ ] Caching architecture
 - [ ] Async architecture
-- [ ] AWS Well-Architected Framework
 - [ ] Disaster recovery
 - [ ] Multi-region
+- [ ] Global architecture
 - [ ] Cost optimization
 - [ ] Service trade-offs
 
-# Phase 13 — DevOps & CI/CD
+# Phase 14 — DevOps + CI/CD + Containers
 
+- [ ] GitHub Actions
 - [ ] CI
 - [ ] Automated tests
-- [ ] Linting
 - [ ] Security scanning
-- [ ] Build pipeline
-- [ ] Artifact management
-- [ ] Deployment workflow
-- [ ] Rollback
+- [ ] Artifacts
+- [ ] Deployment workflows
 - [ ] Rolling deployment
 - [ ] Blue/green
 - [ ] Canary
 - [ ] Feature flags
-- [ ] Zero-downtime deployment
+- [ ] Rollback
+- [ ] Docker images / containers
+- [ ] Dockerfile
+- [ ] Volumes / networks
+- [ ] Registries
+- [ ] Multi-stage builds
 
-# Phase 14 — Terraform / IaC
+# Phase 15 — Terraform / IaC
 
-- [ ] Providers
-- [ ] Resources
-- [ ] Variables
-- [ ] Outputs
+- [ ] Providers / resources
+- [ ] Variables / outputs
 - [ ] Modules
 - [ ] State
 - [ ] Remote state
@@ -293,7 +514,7 @@ Use this file as the **personal progress tracker** for the Engineering Journey.
 - [ ] Drift
 - [ ] Reusable modules
 
-# Phase 15 — Observability & Reliability
+# Phase 16 — Observability + Reliability
 
 - [ ] Structured logs
 - [ ] Metrics
@@ -301,14 +522,14 @@ Use this file as the **personal progress tracker** for the Engineering Journey.
 - [ ] Correlation IDs
 - [ ] Golden signals
 - [ ] SLI / SLO / SLA
-- [ ] Alerting
-- [ ] Dashboards
+- [ ] Alerting / dashboards
 - [ ] OpenTelemetry
 - [ ] Prometheus
 - [ ] Grafana
 - [ ] CloudWatch
+- [ ] Health checks
 - [ ] Timeouts
-- [ ] Retries
+- [ ] Retries / jitter
 - [ ] Circuit breakers
 - [ ] Bulkheads
 - [ ] Load shedding
@@ -316,48 +537,49 @@ Use this file as the **personal progress tracker** for the Engineering Journey.
 - [ ] RTO / RPO
 - [ ] Incident response
 
-# Phase 16 — Kubernetes / Platform
+# Phase 17 — Kubernetes + EKS
 
 - [ ] Pods
 - [ ] Deployments
 - [ ] Services
 - [ ] Ingress
-- [ ] ConfigMaps
-- [ ] Secrets
+- [ ] ConfigMaps / Secrets
 - [ ] Namespaces
 - [ ] StatefulSets
 - [ ] Jobs / CronJobs
 - [ ] HPA
 - [ ] RBAC
-- [ ] EKS
+- [ ] EKS architecture
 - [ ] Kubernetes networking
 - [ ] Autoscaling
+- [ ] IAM integration
+- [ ] Observability
 - [ ] EC2 vs ECS vs EKS vs Lambda
 
-# Phase 17 — Security
+# Phase 18 — Security
 
 - [ ] OWASP Top 10
 - [ ] Threat modeling
 - [ ] Trust boundaries
-- [ ] Authentication
-- [ ] Authorization
-- [ ] OAuth2
-- [ ] OIDC
+- [ ] Authentication / authorization
+- [ ] OAuth2 / OIDC
 - [ ] JWT trade-offs
 - [ ] Session security
 - [ ] Secrets management
-- [ ] Encryption
+- [ ] Encryption in transit / at rest
 - [ ] IAM / least privilege
 - [ ] Network segmentation
-- [ ] WAF
+- [ ] WAF / DDoS concepts
 - [ ] Audit logging
 - [ ] Security monitoring
 
-# Phase 18 — AI Engineering
+# Phase 19 — AI Engineering
 
 - [ ] Python for AI engineering
 - [ ] LLM APIs
+- [ ] Tokens / context windows
 - [ ] Prompt engineering
+- [ ] Structured output
 - [ ] Embeddings
 - [ ] Vector search
 - [ ] pgvector
@@ -371,15 +593,16 @@ Use this file as the **personal progress tracker** for the Engineering Journey.
 - [ ] AI caching
 - [ ] Evaluation
 - [ ] Guardrails
-- [ ] Model fallback
+- [ ] Model routing / fallback
 - [ ] AI observability
 - [ ] AI cost control
+- [ ] Rails + LLM integration
 
-# Phase 19 — AI System Design
+# Phase 20 — AI System Design
 
-- [ ] LLM gateway
+- [ ] AI gateway
 - [ ] Model routing
-- [ ] Model fallback
+- [ ] Multi-model architecture
 - [ ] Prompt/version management
 - [ ] Retrieval architecture
 - [ ] Vector database architecture
@@ -391,11 +614,13 @@ Use this file as the **personal progress tracker** for the Engineering Journey.
 - [ ] AI caching
 - [ ] Evaluation pipeline
 - [ ] Guardrails
+- [ ] AI security
 - [ ] AI cost architecture
 - [ ] AI observability
 
-# Phase 20 — Architecture Projects
+# Phase 21 — Architecture Projects + Senior/Staff
 
+## Projects
 - [ ] URL Shortener
 - [ ] Rate Limiter
 - [ ] Notification System
@@ -410,17 +635,14 @@ Use this file as the **personal progress tracker** for the Engineering Journey.
 - [ ] Learning Management System
 - [ ] AI Assistant Platform
 
-### Project completion checklist
-
-For each project:
-
+## Every project
 - [ ] Requirements
 - [ ] Assumptions
 - [ ] Capacity estimation
 - [ ] API design
 - [ ] Data model
-- [ ] High-level architecture
-- [ ] Detailed design
+- [ ] Architecture diagram
+- [ ] Component design
 - [ ] Failure analysis
 - [ ] Scaling strategy
 - [ ] Security design
@@ -428,16 +650,16 @@ For each project:
 - [ ] Disaster recovery
 - [ ] Cost analysis
 - [ ] Trade-offs
-- [ ] Architecture diagram
+- [ ] ADRs
+- [ ] Runbook
 - [ ] Prototype / implementation
 - [ ] Performance test
-- [ ] Final review
+- [ ] Final architecture review
 
-# Phase 21 — Senior/Staff Engineering
-
+## Senior/Staff
 - [ ] Architecture reviews
-- [ ] ADRs
 - [ ] RFCs
+- [ ] ADRs
 - [ ] Technical strategy
 - [ ] Incident leadership
 - [ ] Root-cause analysis
@@ -448,26 +670,26 @@ For each project:
 - [ ] Legacy modernization
 - [ ] Build vs buy
 - [ ] Cost/performance trade-offs
-- [ ] Stakeholder communication
+- [ ] Cross-team architecture
 
 ---
 
-# 🏁 Final Completion
+# 🏁 Final Progress Gate
 
-- [ ] I can design systems from requirements
+- [ ] I can design from requirements
 - [ ] I can estimate capacity
 - [ ] I can identify bottlenecks
 - [ ] I can reason about failures
-- [ ] I can choose appropriate data stores
+- [ ] I can choose appropriate storage
 - [ ] I can choose sync vs async communication
 - [ ] I can design for availability and reliability
 - [ ] I can design AWS infrastructure
-- [ ] I can automate infrastructure with Terraform
-- [ ] I can operate systems using observability
+- [ ] I can automate infrastructure
+- [ ] I can operate systems with observability
 - [ ] I can reason about distributed systems
 - [ ] I can design secure systems
 - [ ] I can design AI-enabled systems
-- [ ] I can explain architectural trade-offs
+- [ ] I can explain trade-offs
 - [ ] I can lead an architecture review
 
-> **Final goal:** Become the engineer who can go from a blank requirement to a production-ready, scalable, secure, observable, cost-aware architecture—and explain why every important decision was made.
+> **Final goal:** Go from a blank requirement to a production-ready, scalable, secure, observable, cost-aware system and explain every major engineering and architectural decision.
